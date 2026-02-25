@@ -1,0 +1,8 @@
+Que es HTML?
+HYPERText Markup Languaje <-esto no crea la estructura (contenido) de la pagina web
+
+Que es una etiqueta HTML?
+ Es lo que indica el principio y el final de un elemento del contenido y que elemento es.
+
+ Que es HTML Semantico?
+El HTML semántico es el uso de etiquetas HTML que describen el significado y la función de su contenido (ej. <article>, <nav>, <header>) en lugar de su apariencia, permitiendo a navegadores, motores de búsqueda y tecnologías asistivas entender mejor la estructura y propósito de una página web.

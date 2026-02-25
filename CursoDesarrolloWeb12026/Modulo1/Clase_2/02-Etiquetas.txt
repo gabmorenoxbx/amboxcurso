@@ -1,0 +1,17 @@
+<div></div> <- es una etiqueta que indica una "seccion" es la pagina debe evitarse su uso desmedido o indiscriminado ya que es una etiqueta muy generica
+
+<head></head> <- Es el encabezado de pagina.
+
+<section></section> <- indicar una seccion.
+
+<article></article> indica un articulo o producto.
+
+<nav></nav> indicar una barra de navegacion.
+
+<footer></footer> <-indicar el pie de pagina.
+
+<main></main> <-indica la seccion principal de una pagina.
+
+<a></a> <- o anchor, sirve basicamente como hipervinculo o linkear alguna seccion de la pagina
+
+usamos estas etiquetas por el SEO (search Engine optimization) o por asi decirlo, porsicionarnos mejor en google ademas de eso, por la accesibilidad (es decir, que la pagina sea 'navegable' para personas con capacidades diferentes)
