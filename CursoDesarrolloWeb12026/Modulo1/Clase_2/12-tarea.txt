@@ -1,0 +1,5 @@
+Mejorar el formulario final con:
+1 checkbox de aceptacion de terminos (required)
+2 radio buttos (por ejemplo: tipo de cliente)
+un campo number con validacion min/max <- esto van a tener que investigar 
+cada una de estas cosas, con su label que este 'conectado' al input

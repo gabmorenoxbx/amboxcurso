@@ -8,19 +8,26 @@
 <body>
     <form action="">
         <label for="nombre">Nombre</label>
-        <input type="text" name="nombre" id="nombre" minlength="3" required>
+        <input type="text" name="nombre" id="nombre" minlength="3" placeholder="Ingrese su nombre"  required> <br> <br>
+
         <label for="email">Email</label>
-        <input type="email" name="email" id="email" required>
+        <input type="email" name="email" id="email" required placeholder="Ingrese su Telefono"> <br> <br>
+
         <label for="phone">Telefono</label>
-        <input type="tel" name="phone" id="phone" required>
-        <label for="motivo">Movito de contacto</label>
+        <input type="tel" name="phone" id="phone" required placeholder="Ingrese su Telefono"> <br> <br>
+        <label for="motivo">Motivo de contacto</label>
+        <br>
         <select name="motivo" id="motivo">
             <option selected></option>
             <option>Consulta</option>
             <option>Trabajo</option>
-        </select>
+        </select> <br> <br>
         <label for="mensaje">Mensaje</label>
-        <textarea name="textarea" itemid="" id="mensaje"></textarea>
+        <textarea name="textarea" itemid="" id="mensaje" placeholder="Ingrese su mensaje"></textarea> <br> <br>
+        <label for="checkbox">
+            <input type="checkbox" name="terminos" id="">He leído y acepto los términos y condiciones de uso
+        </label>
+        <BR></BR>
 
         <button type="submit">Enviar
         </button>

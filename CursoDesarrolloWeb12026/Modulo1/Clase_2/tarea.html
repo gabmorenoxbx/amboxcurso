@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAREA23/02/2026</title>
+</head>
+<body>
+    <h1>Datos de facturacion</h1>
+    <form action="">
+        <p>Tipo de cliente</p>
+        <input type="radio" name="tipocliente" id="empresa" value="empresa">
+        <label for="empresa">Empresa</label>
+        <input type="radio" name="tipocliente" id="particular" value="particular">
+        <label for="particular">Particular</label>
+        <br> <br>
+        <label for="nombre">Nombre:</label>
+        <input type="text" required id="nombre" placeholder="Ingrese su nombre/empresa">
+        <br><br>
+        <label for="razonsocial">Razon Social:</label>
+        <input type="text" required placeholder="ej. S.A., S.L., S.A.S.">
+        <br> <br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required placeholder="Ingrese email">
+        <br> <br>
+        <label for="edad">Edad</label>
+        <input type="number" name="edad" id="edad" min="18" max="99" placeholder="+18">
+        <br> <br>
+        <label for="direccion">Direccion:</label> <input type="text" id="direccion" placeholder="ingrese su direccion" required> 
+        <br><br>
+        <textarea name="mensaje" id="mensaje" required placeholder="Agregue una referencia describiendo el domicilio" cols="50" rows="5"></textarea> <BR></BR>
+        <LABEL id="terminos"><input type="checkbox" id="terminos" name="terminos">Al marcar la casilla "He leído y acepto los términos y condiciones" y hacer clic en "Finalizar Compra", el usuario confirma que es mayor de edad y acepta este contrato.</LABEL> <br><br>
+        <label for="ingresar datos"></label>
+        <input type="submit" value="FINALIZAR COMPRA">
+    </form>
+</body>
+</html>
