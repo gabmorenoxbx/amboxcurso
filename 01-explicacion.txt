@@ -1,0 +1,11 @@
+-HTML:HyperText Markup Languaje (Lenguaje de marcarcado de hipertexto), sirve para crear la estructura de la pagina web
+-CSS: Cascading Stylesheets, es lo que le da "estetica" a la pagina
+-Javascrip: Le da la Funcionalidada la pagina
+
+-HTML ->estructura
+-CSS -> Visual
+-Javascrip -> Funcionalidad 
+
+----------------------------------
+
+React: React es un Framework de Frontend creado por el equipo de Meta (Facebook,Instagram), Que se destaca por su rapides, porque es una herramienta relativamente facil de aprender, y sus multiples Funcionalidades.

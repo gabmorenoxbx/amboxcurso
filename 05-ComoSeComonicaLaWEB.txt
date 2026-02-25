@@ -1,0 +1,23 @@
+Como se comunica el Frontend y Backend
+
+hay varias formas, una de la que vamos a usar es:
+
+HTTP
+
+Esto, se usa mediante protocolo de peticion-respuesta
+
+Que es una peticion?
+Es una solicitud "Hacer algo", tenemos 4 tipos basicos de peticiones 
+
+GET-> Conseguir
+POST
+PUT
+DELETE
+
+C REATE -> crear ->POST 
+R EAD -> Leer ->GET
+U pdate ->Actualizar ->PUT
+D ELETE ->Eliminar ->DELETE
+
+-------------------
+hhtp://www.google.com -> cuando entramos aca, estamos haciendo un get del HTML
