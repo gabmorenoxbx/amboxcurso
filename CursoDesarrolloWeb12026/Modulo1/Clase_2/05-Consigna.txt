@@ -1,0 +1,19 @@
+Crea una pagina de:
+
+Revista digital
+
+debe tener:
+
+Header con Titulo
+
+nav con 3 Enlaces 
+
+2 articulos dentro de una seccion
+
+footer
+
+requisitos:
+
+no usar div innecesarios 
+
+correcta jerarquia de h1,h2,h3

@@ -15,3 +15,17 @@
 <a></a> <- o anchor, sirve basicamente como hipervinculo o linkear alguna seccion de la pagina
 
 usamos estas etiquetas por el SEO (search Engine optimization) o por asi decirlo, porsicionarnos mejor en google ademas de eso, por la accesibilidad (es decir, que la pagina sea 'navegable' para personas con capacidades diferentes)
+
+<form></form> <-etiqueta para englobar formularios
+
+<label></label> <-se utiliza como 'titulo de un input' se la usa ya que da ciertas ventas en accesibilidad
+
+</input> <- se utiliza para que el usuario de alguna manera ingrese su informacion, hay varios tipos de input
+
+<button></button> <-se utiliza para lanzar un formulario o lanzar un formulario 
+
+<select></select> <- es un dropdown o desplegable donde elegiremos varias opciones
+
+<option> son las opciones del select y deben ir anidadas al select
+
+<textarea> es una caja de texto que se puede agrandar o achicar que se puede poner un mensaje
