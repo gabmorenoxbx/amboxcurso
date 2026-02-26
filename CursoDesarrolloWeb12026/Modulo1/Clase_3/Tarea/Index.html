@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="">
+            <h2>Registro - FESTIVAL ELECTRONICO 2026</h2>
+
+            <label for="nombre">Nombre completo: </label>
+            <input type="text" name="nombre" id="nombre" required placeholder="Escriba su nombre">
+            <label for="email">Correo electronico</label>
+            <input type="email" name="emial" id="email" required placeholder="Ingrese su mail">
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" required placeholder="+18" min="18" max="99">
+
+            <p>
+                Tipo de Entrada
+            </p>
+            <input type="radio" name="entrada" id="general" value="general" required>
+            <label for="general">General</label>
+            <input type="radio" name="entrada" id="vip" value="vip">
+            <label for="vip">VIP</label>
+
+        <label for="dia">Dia de asistencia</label>
+        <select name="dia" id="dia" required>
+            <option value="" disabled selected>Seleccione un dia</option>
+            <option value="viernes">Viernes</option>
+            <option value="sabado">Sabado</option>
+            <option value="domingo">Domingo</option>
+
+        </select>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" rows="4" cols="40" ></textarea>
+
+        <input type="checkbox" name="terminos" id="terminos">
+        <label for="terminos">Acepto los términos y condiciones</label>
+
+        <button type="submit">Reservar Entrada</button>
+
+        
+    </form>
+</body>
+</html>
