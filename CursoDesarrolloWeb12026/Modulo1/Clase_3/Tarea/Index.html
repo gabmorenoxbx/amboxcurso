@@ -5,42 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <form action="">
-            <h2>Registro - FESTIVAL ELECTRONICO 2026</h2>
-
+            <h2 class="titulo">Registro - FESTIVAL ELECTRONICO 2026</h2>
+            <div class="campo1">
             <label for="nombre">Nombre completo: </label>
             <input type="text" name="nombre" id="nombre" required placeholder="Escriba su nombre">
-            <label for="email">Correo electronico</label>
+        </div>
+        <div class="campo2">
+            <label for="email">Correo electronico:</label>
             <input type="email" name="emial" id="email" required placeholder="Ingrese su mail">
-            <label for="edad">Edad</label>
+        </div>
+            <div class="campo3"><label for="edad">Edad:</label>
             <input type="number" name="edad" id="edad" required placeholder="+18" min="18" max="99">
-
+    </div>
             <p>
-                Tipo de Entrada
+                Tipo de Entrada:
             </p>
-            <input type="radio" name="entrada" id="general" value="general" required>
-            <label for="general">General</label>
-            <input type="radio" name="entrada" id="vip" value="vip">
-            <label for="vip">VIP</label>
+            <div class="campo4"><input type="radio" name="entrada" id="general" value="general" required>
+            <label for="general">General</label></div>
+            <div class="campo5"><input type="radio" name="entrada" id="vip" value="vip">
+            <label for="vip">VIP</label></div>
 
-        <label for="dia">Dia de asistencia</label>
+        <div class="dia"><label for="dia">Dia de asistencia:</label>
         <select name="dia" id="dia" required>
             <option value="" disabled selected>Seleccione un dia</option>
             <option value="viernes">Viernes</option>
             <option value="sabado">Sabado</option>
             <option value="domingo">Domingo</option>
+            <option value="todoslosdias">3 Dias</option>
 
         </select>
+        </div>
 
-        <label for="mensaje">Mensaje</label>
-        <textarea name="mensaje" id="mensaje" rows="4" cols="40" ></textarea>
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje" rows="4" cols="40" placeholder="Escriba su mensaje"></textarea>
 
-        <input type="checkbox" name="terminos" id="terminos">
-        <label for="terminos">Acepto los términos y condiciones</label>
+        <div class="terminos"><input type="checkbox" name="terminos" id="terminos">
+        <label for="terminos" class="tyc">Acepto los términos y condiciones</label></div>
+        
 
-        <button type="submit">Reservar Entrada</button>
+        <button type="submit" class="botonpiola">Reservar Entrada</button>
 
         
     </form>
