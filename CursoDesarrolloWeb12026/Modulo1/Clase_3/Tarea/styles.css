@@ -66,6 +66,7 @@ label{
 }
 p{
     font: 17px;
+    margin: 5px;
     color: #FAB2FF;
     font-family: orbitron;
 }
@@ -73,4 +74,5 @@ textarea{
     width: 600px;
     height: 120px;
     resize: none;
+    margin-left: 6px;
 }
