@@ -10,24 +10,36 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 100px;
+    padding-left: 10px;
     background-color: #355872;
+    background-size: cover;
 }
 .logo{
     border: solid;
+    width: 100px;
     background-color: aquamarine;
 }
-.menu{
+.centerlogo{
+    width: auto;
     display: flex;
-    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.menu{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
     list-style-type: none;
     cursor: pointer;
 }
 .inicio{
     border-bottom: #393E46 solid;
     background-color: #0B2D72;
-    width: 100px;
+    width: 90px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -56,7 +68,7 @@ nav{
 .ventas{
     background-color: #0992C2;
     border-bottom: solid #393E46;
-    width: 100px;
+    width: 90px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -76,7 +88,7 @@ nav{
 .servicios{
     background-color: #0F828C;
     border-bottom: #393E46 solid;
-    width: 100px;
+    width: 90px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -95,7 +107,7 @@ nav{
 .contacto{
     background-color: #FF9644;
     border-bottom: solid #393E46;
-    width: 100px;
+    width: 90px;
     height: 50px;
     display: flex;
     justify-content: center;
@@ -110,4 +122,41 @@ nav{
     opacity: 1;
     transform: scale(1.1);
     transition: 5s;
+}
+.card{
+    display: flex;
+    padding: auto;
+    padding-top: 20px;
+    gap: 30px;
+    justify-content: space-around;
+    color: #0B2D72;
+}
+div{
+    border: solid;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+@media (max-width: 768px) {
+    .card {
+        flex-direction: row;
+    }
+
+    nav {
+        flex-direction: column;
+        size: 10px;
+    }
+    li span{
+    }
+    .centerlogo{
+        flex-direction: column;
+        padding-left: 90px;
+        padding-top: 10px;
+    }
+    .menu{
+        padding-left: 88px;
+    }
 }
