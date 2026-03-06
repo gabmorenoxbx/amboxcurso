@@ -6,6 +6,7 @@ box-sizing: border-box;
 
 body{
 font-family: Arial, sans-serif;
+background-image: linear-gradient(120deg, #a1c4fd 49%, #c2e9fb 50%);
 }
 
 /* NAVBAR */
@@ -50,6 +51,7 @@ margin-top:1rem;
 }
 
 /* HERO */
+/*El Hero Section es la primera sección grande que ves cuando entrás a una página web, debajo del navbar. Sirve para explicar rápidamente qué es el producto.*/ 
 
 .hero{
     display:flex;
