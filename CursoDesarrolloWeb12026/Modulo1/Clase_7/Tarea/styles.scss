@@ -1,31 +1,48 @@
+$primarycolor: darkslategrey;
+$info-color: rgb(69, 139, 156);
+$marginuphero: 20px 20px 10px;
+$colornavbar: rgba(62, 10, 182, 0.8);
+
 body{
+  i{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .navbar{
+    background-color: $colornavbar;
+  }
+  .nav-item{
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
   .theme-btn{
     position: fixed;
     bottom: 20px;
     right: 20px;
   }
-  .welcome{
-    text-align: center;
-    margin-top: 50px;
-    color: darkslategrey;
+  #welcome{
+    text-align: start;
+    margin:$marginuphero;
+    color: $primarycolor;
 
   }
     .info{
-        text-align: center;
-        font-size: 1rem;
-        color: rgb(69, 139, 156)
+        margin: $marginuphero;
+        text-align: start;
+        font-size: 1.5rem;
+        color: $info-color
     }
     .servicios{
         gap: 10px;
-        margin: 10px 10px;
+        margin: $marginuphero;
         text-align: start;
-        color: darkslategrey;
+        color: $primarycolor;
 
     }
 }
 .hero{
   .carousel-item{
-    height: 600px;
+    height: 500px;
   }
 
   img{
@@ -34,11 +51,15 @@ body{
     object-fit: cover;
   }
   h5{
-    color: rgb(52, 162, 206);
+    color: $info-color;
     font-size: 3rem;
   }
   p{
-    color: rgb(69, 139, 156);
+    color: $info-color;
     font-size: 2rem;
   }
+}
+footer{
+  margin-top: 1rem;
+
 }

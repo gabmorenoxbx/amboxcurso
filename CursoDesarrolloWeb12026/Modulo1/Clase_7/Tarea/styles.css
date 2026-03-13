@@ -1,39 +1,55 @@
+body i {
+  font-size: 3rem;
+  font-weight: bold;
+}
+body .navbar {
+  background-color: rgba(62, 10, 182, 0.8);
+}
+body .nav-item {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 body .theme-btn {
   position: fixed;
   bottom: 20px;
   right: 20px;
 }
-body .welcome {
-  text-align: center;
-  margin-top: 50px;
+body #welcome {
+  text-align: start;
+  margin: 20px 20px 10px;
   color: darkslategrey;
 }
 body .info {
-  text-align: center;
-  font-size: 1rem;
+  margin: 20px 20px 10px;
+  text-align: start;
+  font-size: 1.5rem;
   color: rgb(69, 139, 156);
 }
 body .servicios {
   gap: 10px;
-  margin: 10px 10px;
+  margin: 20px 20px 10px;
   text-align: start;
   color: darkslategrey;
 }
 
 .hero .carousel-item {
-  height: 600px;
+  height: 500px;
 }
 .hero img {
   height: 100%;
   object-fit: cover;
 }
 .hero h5 {
-  color: rgb(52, 162, 206);
+  color: rgb(69, 139, 156);
   font-size: 3rem;
 }
 .hero p {
   color: rgb(69, 139, 156);
   font-size: 2rem;
+}
+
+footer {
+  margin-top: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
