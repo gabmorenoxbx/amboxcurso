@@ -1,0 +1,39 @@
+body .theme-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+body .welcome {
+  text-align: center;
+  margin-top: 50px;
+  color: darkslategrey;
+}
+body .info {
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(69, 139, 156);
+}
+body .servicios {
+  gap: 10px;
+  margin: 10px 10px;
+  text-align: start;
+  color: darkslategrey;
+}
+
+.hero .carousel-item {
+  height: 600px;
+}
+.hero img {
+  height: 100%;
+  object-fit: cover;
+}
+.hero h5 {
+  color: rgb(52, 162, 206);
+  font-size: 3rem;
+}
+.hero p {
+  color: rgb(69, 139, 156);
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
