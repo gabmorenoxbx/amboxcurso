@@ -42,7 +42,7 @@ body{
 }
 .hero{
   .carousel-item{
-    height: 500px;
+    height: 400px;
   }
 
   img{
@@ -51,6 +51,7 @@ body{
     object-fit: cover;
   }
   h5{
+    
     color: $info-color;
     font-size: 3rem;
   }
