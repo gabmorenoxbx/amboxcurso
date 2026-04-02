@@ -19,6 +19,7 @@ padding:2rem;
 background:#0B2D72;
 color:white;
 }
+
 /*logo */
 .logo a {
     font-weight: bold;
@@ -39,15 +40,34 @@ gap:1rem;
 margin-top:1rem;
 }
 /*INICIO*/
-.inicio a{
+li a{
     font-weight: bold;
     text-decoration: none;
     color: inherit;
 }
-.inicio:hover, .funciones:hover, .contacto:hover{
-    cursor: pointer;
-    transform: rotateX(360deg);
-    transition: 1s;
+/*animacion para underline*/
+a{
+    position: relative;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+}
+a::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+
+    width: 100%;
+    height: 2px;
+    background-color: white;
+
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    transition: transform 0.4s ease;
+}
+a:hover::after{
+    transform: translateX(-50%) scaleX(1);
 }
 
 /* HERO */
@@ -62,12 +82,36 @@ margin-top:1rem;
     gap:5rem;
 }
 
+/*Imagenes*/
 .hero img{
-    width: 80%;
+    max-height: 200px;
+    width: 50%;
     padding: 1rem;
-    max-width:300px;
+    border-radius: 10px;
+    box-shadow: 0 15px 10px rgba(0,0,0,0.2);
 }
+.imgs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgs img{
+    max-width: 400px;
+    transition: transform 0.4s ease;
+}
+/*estado normal: casi juntas */
+.imgs img:first-child{
+    transform: translateX(80px);
+}
+/*.imgs img:last-child*/
 
+/*Separacion de imagenes*/
+.imgs:hover img:first-child{
+    transform: translateX(-10px);
+}
+.imgs:hover img:last-child{
+    transform: translateX(10px);
+}
 /*DESCARGA*/
 
 button{
@@ -99,10 +143,14 @@ background:#f3f3f3;
 padding:1.5rem;
 border-radius:10px;
 text-align:center;
+transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
-
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.35);
+}
 .card span{
-font-size:3rem;
+font-size:4rem;
 }
 
 @media (min-width:768px){
