@@ -1,0 +1,167 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout>
+    <nav class="navbar bg-tertiary fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"> <img class="logo" src="img/WhatsApp Image 2026-03-17 at 3.56.15 PM.jpeg" alt="logo">GabMoreno</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PROYECTOS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SOBRE MI
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#aboutMe">¿Quién soy?</a></li>
+              <li><a class="dropdown-item" href="#Tecno">Tecnologías usadas</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#Contacto">Contacto</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="buscar..." aria-label="Search"/>
+          <button class="btn btn-outline-success" type="submit">BUSCAR!</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</nav>
+    <section>
+        <div>
+            <div class="text-center" id="herosection">
+        <h1 class="m-4" id="¿Quién soy?">Desarrollo Frontend</h1>
+        <p class="fs-3">Páginas web modernas y funcionales para emprendimientos y proyectos digitales.</p>
+            <div class="row  align-items-center m-5">
+        <div class="col-md"><h4>100% Rapido y confiable</h4></div>
+        <div class="col-md"><button class="button1" type="button">Llevá tu negocio al mundo digital</button></div>
+        </div>
+            </div>
+    </div>
+    </section>
+        <div class="container" id="tecnos">
+            <h2 class="m-5" id="Tecno">Tecnologías que utilizó:</h2>
+                <div class="row">
+                    <h5 class="col-sm-6 col-md-4 col-xxl-2"><img src="/img/Tecnologias/html-1.svg" alt="">HTML</h5>
+                    <h5 class="col-sm-6 col-md-4 col-xxl-2"><img src="/img/Tecnologias/CSS3_logo.svg.png" alt="">CSS</h5>
+                    <h5 class="col-sm-6 col-md-4 col-xxl-2"><img src="img/Tecnologias/13407c12f50f08d328800c3caef43f61.jpg" alt="">JavaScript</h5>
+                    <h5 class="col-sm-6 col-md-4 col-xxl-2"><img src="img/Tecnologias/bootstrap-5-logo-png_seeklogo-386607.png" alt="">Bootstrap</h5>
+                    <h5 class="col-sm-6 col-md-4 col-xxl-2"><img src="img/Tecnologias/logo.svg" alt="">Tailwind</h5>
+                    <h5 class="col-sm-6 col-md-4 col-xxl-2"><img src="img/Tecnologias/mongodb-logo-png_seeklogo-481256.png" alt="">MongoDb</h5>
+                </div>
+        </div>
+            <section class="m-5" id="aboutMe">
+            <div class="p-5">
+                <div class="card-body text-center align-items-center">
+                    <h5 class="card-title fs-1">Sobre mí</h5>
+                        <p class="card-text fs-4">
+                            Soy Gabriel Moreno, desarrollador frontend en formación, enfocado en crear páginas web modernas, rápidas y funcionales.
+                        </p>
+                </div>
+            </div>
+        </section>
+        <section class="Contacto" id="Contacto">
+            <h5 class="m-5 fs-2">CONTACTAME!</h5>
+            <form class="row m-5">
+    <div class="col">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" placeholder="Escribe tu nombre" required>
+                <div class="valid-feedback">
+                    Buena Suerte!
+                </div>
+  <div class="col">
+    <label for="validationCustom02" class="form-label">Apellido</label>
+    <input type="text" class="form-control" id="lastname" required placeholder="Escribe tu Apellido">
+    <div class="valid-feedback">
+      Looks good!
+    </div>
+    <div class="col">
+    <label for="email" class="form-control">Email</label>
+    <input class="form-control" type="email" id="eail" required  placeholder="Escriba su Email">
+    </div>
+  </div>
+    </div>
+    <textarea class="mt-5 mb-5" name="" id="" placeholder="Escribe tu mensaje" required></textarea>
+  <div class="col">
+    <button class="btn btn-primary" type="submit" maxlength="100" minlength="30">Envia tu mensaje!</button>
+  </div>
+</form>
+        </section>
+        <p><a href="https://wa.me/5493854473857" target="_blank" class="whatsapp-float">Enviame un Whatsapp💬</a></p>
+
+<!--Footer-->
+
+<footer class=" text-light pt-5">
+
+  <div class="container">
+    <div class="row">
+
+      <!-- LOGO + DESCRIPCIÓN -->
+      <div class="col-md-4 mb-4">
+        <img src="/WhatsApp Image 2025-02-27 at 09.37.43.jpeg" alt="Logo" style="max-width: 150px;">
+        
+        <p class="mt-3">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ea provident facere rem iusto consequuntur voluptates quasi aut vel. Velit ipsum eligendi distinctio, sequi nobis voluptas? Quidem, praesentium! Doloremque, explicabo!</p>
+        </p>
+      </div>
+
+      <!-- REDES -->
+      <div class="col-md-4 mb-4">
+        <h5>Redes Sociales</h5>
+        <ul class="list-unstyled">
+          <li>
+            <a href="#" class="text-decoration-none text-light">
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- SOPORTE -->
+      <div class="col-md-4 mb-4">
+        <h5>Soporte</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-decoration-none text-light">Preguntas frecuentes</a></li>
+          <li><a href="#" class="text-decoration-none text-light">Términos y condiciones</a></li>
+          <li><a href="#" class="text-decoration-none text-light">Política de privacidad</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- COPYRIGHT -->
+    <div class="text-center border-top pt-3 pb-2 mt-3">
+      <p class="mb-0">© 2026 Gabmoreno - Todos los derechos reservados</p>
+    </div>
+
+  </div>
+
+</footer>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "1aij4eNpIYU-znvtK",
+      });
+   })();
+</script>
+</Layout>
