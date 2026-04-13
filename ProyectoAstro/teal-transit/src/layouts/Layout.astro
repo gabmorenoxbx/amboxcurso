@@ -1,0 +1,23 @@
+---
+// src/layouts/Layout.astro
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../styles/styles.css'; 
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Gabriel Moreno</title>
+    <!-- Font Awesome para los iconos de redes sociales -->
+    <link rel="stylesheet" href="https://cloudflare.com">
+</head>
+<body>
+    <slot /> <!-- Aquí se inyecta tu index.astro -->
+
+    <!-- JS de Bootstrap para que el menú funcione -->
+    <script>
+      import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+    </script>
+</body>
+</html>

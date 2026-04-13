@@ -39,8 +39,8 @@ repetirTexto('Hola', 3)
 function repetirTexto2(texto, veces) {
     let acumulador = ''; //scope local para guardar el resultado
     for (let i = 0; i < veces; i++) {
-        acumulador = acumulador + texto + ' ';
+        acumulador = ' '+acumulador + texto +' ';
     }
-    console.log(acumulador)
+    console.log(acumulador.trim()+ '.') //.trim remueve espacios del comienzo y final (es un Modify methods)
 }
 repetirTexto2('Buenas', 5)
